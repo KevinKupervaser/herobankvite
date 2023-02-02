@@ -14,6 +14,10 @@ import {
   Hero,
 } from "./components";
 
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-256157574-1");
+
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
